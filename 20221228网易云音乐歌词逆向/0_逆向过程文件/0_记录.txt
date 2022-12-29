@@ -1,0 +1,18 @@
+e1x.data = j1x.cr2x({
+                params: bMr8j.encText,
+                encSecKey: bMr8j.encSecKey
+})
+
+
+window.asrsea(
+	JSON.stringify(i1x), 
+	bsg5l(["流泪", "强"]),     // 010001
+	bsg5l(TH9y.md), 
+	bsg5l(["爱心", "女孩", "惊恐", "大笑"]));
+
+window.asrsea(JSON.stringify({id: '2009750812', lv: -1, tv: -1, csrf_token:''}), '010001','00e0b509f6259df8642dbc35662901477df22677ec152b5ff68ace615bb7b725152b3ab17a876aea8a5aa76d2e417629ec4ee341f56135fccf695280104e0312ecbda92557c93870114af6c9d05c4f7f0c3685b7a46bee255932575cce10b424d813cfe4875d3e82047b97ddef52741d546b8e289dc6935b3ece0462db0a22b8e7', '0CoJUm6Qyw8W8jud');
+
+源参数
+params=2HljP7LwC48rnx2ocxTyE8p568MqKeV%2BpL7BjBmMhuGFjCxmcYzn%2B1%2FUPfOU1d0LP%2B2Zxz%2FOSKQJ9CQ6PQJVkm%2FRI%2B2b0jliYYxzTmTelmQDc%2BAFDcuK2YvNP5g2sCTU
+&encSecKey=884efde34110e24f1b0098251f22c881b744953ec6dc8610519b01663ad8ce5698bb2bff36e0281df06da441a1732e2483935503e012c103d24ec86ae356d02abcc98e5439374da104f370482a2eef59084ad7298ab0d6c5b00c45e426e6252a5938ccefea061216b8b5cafa0cedf30ad3d7ab91bec80c62a07040ed42c04dbf
+
