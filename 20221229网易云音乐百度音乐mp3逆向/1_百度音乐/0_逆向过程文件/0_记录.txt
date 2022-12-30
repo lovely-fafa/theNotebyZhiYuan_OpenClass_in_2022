@@ -1,0 +1,16 @@
+data: {
+    sign: i,
+    appid: 16073360,
+    TSID: e.TSID,
+    timestamp: s
+}
+
+r = createSign(e), 
+i = r.sign
+
+secret = "0b50b02fd0d73a9c4c8c3a781c30845f";
+r = 'TSID=T10046204448&appid=16073360&timestamp=1672371563'
+sign = md5(r += secret)
+	 = md5('TSID=T10046204448&appid=16073360&timestamp=16723715630b50b02fd0d73a9c4c8c3a781c30845f')
+
+e = {TSID: 'T10046204448', appid: 16073360, timestamp: 1672370409}
