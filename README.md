@@ -17,3 +17,32 @@
 - 20221231```JavaScript```快速入门
 
   没做笔记，我还是回头系统学```JavaScript```叭
+  
+- 20230101爬电影
+
+  吃串串去了，都没听
+
+  前面的```JavaScript```太高深了
+
+  后面的[爬电影](https://www.1905.com/vod/play/441891.shtml?fr=vodhome_jsxftj_1)我就浅浅的爬一下吧
+  
+- 20230101纯聊天
+
+  好强啊 我想买
+
+- [202301003```websocket```协议_爬弹幕](202301003websocket协议_爬弹幕)
+
+  > 笑死 听懂了根本但是干不了 做了个将个烂就的[笔记](./202301003websocket协议_爬弹幕/websocket协议_爬弹幕.md)
+  >
+  > 还是3399比较舒服
+
+  - 0_哔哩哔哩直播弹幕
+
+    https://live.bilibili.com/?spm_id_from=333.1007.0.0
+
+  - 1_咪咕体育直播弹幕
+  
+    https://www.miguvideo.com/mgs/website/prd/sportLive.html?mgdbId=120000445553
+  
+    
+

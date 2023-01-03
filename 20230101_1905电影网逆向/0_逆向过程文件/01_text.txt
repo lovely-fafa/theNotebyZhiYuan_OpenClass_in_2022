@@ -1,0 +1,48 @@
+m3u8 url
+
+https://profile.m1905.com/mvod/getVideoinfo.php?nonce=1672668252&expiretime=1672668852&cid=441891&uuid=1d59ab4d-ac7d-451f-8c1c-203ee2e20de0&playerid=825201721258811&page=https%3A%2F%2Fwww.1905.com%2Fvod%2Fplay%2F441891.shtml%3Ffr%3Dvodhome_jsxftj_1&type=hls&signature=5c116985d50081e97aa446ea810cf490fc492f11&callback=fnCallback0
+
+
+载荷
+nonce: 1672668252  // 时间戳
+expiretime: 1672668852  // 时间戳
+cid: 441891  // 定值
+uuid: 1d59ab4d-ac7d-451f-8c1c-203ee2e20de0  // 定
+playerid: 825201721258811  // 不定
+page: https://www.1905.com/vod/play/441891.shtml?fr=vodhome_jsxftj_1  // 定值
+type: hls  // 定值
+signature: 5c116985d50081e97aa446ea810cf490fc492f11  // 加密参数
+		   
+callback: fnCallback0  // 定值
+
+
+signature = i["default"].signature(this.params, this.options.appid);
+
+this.params = {
+	cid: "441891"
+	expiretime: 1672669413
+	nonce: 1672668813
+	page: "https://www.1905.com/vod/play/441891.shtml?fr=vodhome_jsxftj_1"
+	playerid: "881255412223805"
+	type: "hls"
+	uuid: "1d59ab4d-ac7d-451f-8c1c-203ee2e20de0"
+}
+this.options.appid = 'dde3d61a0411511d'
+playerid = ( +new Date() + '' ).slice(6) + ( Math.random() + '' ).slice(-8)
+952543632872168
+064818947241106
+
+str(time.time()).replace('.', '')[:13][-7:] + random.randint(10000000, 99999999)
+
+i["default"].signature = function(n, A) {
+	var e, t = Object.keys(n).sort(), r = "";
+	for (var o in t) {
+		"signature" !== o && (e = t[o] + "=" + encodeURIComponent(n[t[o]]),
+		r += r ? "&" + e : e)
+	}
+	return (new a["default"].SHA1).hex(r + "." + A)  // 就是这个地方 sha1 加密罢了
+},
+
+比如说 hex('cid=441891&expiretime=1672670511&nonce=1672669526&page=https%3A%2F%2Fwww.1905.com%2Fvod%2Fplay%2F441891.shtml%3Ffr%3Dvodhome_jsxftj_1&playerid=952543632872168&type=hls&uuid=1d59ab4d-ac7d-451f-8c1c-203ee2e20de0.dde3d61a0411511d')
+
+加密后 da39a3ee5e6b4b0d3255bfef95601890afd80709
